@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Version>0.1.0</Version>
+    <Authors>feijie</Authors>
+    <NoWarn>$(NoWarn);CS1591;CS0436</NoWarn>
+    <PackageProjectUrl>https://github.com/feijie999/WokerFolderTemplate/</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/feijie999/WokerFolderTemplate/</RepositoryUrl>
+    <AbpProjectType>app</AbpProjectType>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="ConfigureAwait.Fody" Version="3.3.1" PrivateAssets="All" />
+    <PackageReference Include="Fody" Version="6.5.0">
+      <PrivateAssets>All</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

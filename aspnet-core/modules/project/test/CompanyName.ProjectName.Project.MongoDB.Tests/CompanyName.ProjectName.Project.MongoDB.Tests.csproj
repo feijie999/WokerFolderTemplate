@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>CompanyName.ProjectName.Project</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+    <PackageReference Include="Mongo2Go" Version="3.1.1" />
+    <ProjectReference Include="..\..\src\CompanyName.ProjectName.Project.MongoDB\CompanyName.ProjectName.Project.MongoDB.csproj" />
+    <ProjectReference Include="..\CompanyName.ProjectName.Project.TestBase\CompanyName.ProjectName.Project.TestBase.csproj" />
+  </ItemGroup>
+
+</Project>

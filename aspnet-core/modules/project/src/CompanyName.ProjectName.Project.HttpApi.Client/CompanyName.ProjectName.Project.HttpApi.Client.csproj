@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>CompanyName.ProjectName.Project</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Http.Client" Version="4.3.3" />
+    <ProjectReference Include="..\CompanyName.ProjectName.Project.Application.Contracts\CompanyName.ProjectName.Project.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
